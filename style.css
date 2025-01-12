@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0px;
+  margin: 1px;
+  font-family: "Azeret Mono", serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.nav-title {
+  color: rgb(13, 19, 33);
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.resume-btn {
+  box-sizing: border-box;
+  border-radius: 8px;
+  opacity: 0.8;
+}
+.resume:hover {
+  transition: 0.3s ease-in-out;
+  background-color: black;
+  color: white;
+}
+.resume {
+  padding: 10px 15px;
+  background-color: white;
+  font-weight: bold;
+}
+.banner-container {
+  width: 100%;
+  height: 70vh;
+  background-image: url(assets/Hero-bg.png);
+  text-align: center;
+}
+.banner-img {
+  width: 170px;
+  margin-top: 100px;
+}
+.connect {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  margin-top: 32px;
+  padding: 16px 24px 16px 24px;
+}
+.connect:hover {
+  transition: 0.3s ease-in-out;
+  background-color: white;
+  color: black;
+}
+.banner-title {
+  color: rgb(13, 19, 33);
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.banner-desc {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-top: 24px;
+}
+
+/* Main-Upper section  */
+.upper-main {
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  text-align: center;
+  margin-top: 80px;
+  padding: 80px 97px 80px 97px;
+}
+.upper-title {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.upper-desc {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-top: 24px;
+}
+.box1 {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 16px;
+  margin: 32px 0px;
+  gap: 32px;
+  padding: 48px;
+  margin-top: 50px;
+  align-items: center;
+  text-align: justify;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.box1-title {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.box1-desc {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-top: 16px;
+}
+.left-btn {
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  margin-top: 32px;
+  padding: 16px 24px 16px 24px;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.left-btn:hover {
+  transition: 0.3s ease-in-out;
+  background-color: black;
+  color: white;
+}
+
+.right-img {
+  width: 259.56px;
+  height: 217.01px;
+  left: 0.36%;
+  right: -0.36%;
+  top: 1.74%;
+  bottom: -1.74%;
+}
+
+.box2 {
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 16px;
+  margin: 32px 0px;
+  gap: 32px;
+  padding: 48px;
+  margin-top: 50px;
+  align-items: center;
+  text-align: justify;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.left-img {
+  width: 259.56px;
+  height: 217.01px;
+  left: 0.36%;
+  right: -0.36%;
+  top: 1.74%;
+  bottom: -1.74%;
+}
+
+.box2-right {
+  margin: 32px 0px;
+  margin-left: 100px;
+}
+
+.box2-title {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.box2-desc {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-top: 16px;
+}
