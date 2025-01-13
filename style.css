@@ -311,6 +311,9 @@
   background: none;
   padding-top: 24px;
 }
+.box-btn:hover {
+  color: blueviolet;
+}
 .html-box {
   text-align: justify;
   width: 364px;
@@ -335,10 +338,14 @@
   padding: 40px;
   background: rgba(255, 223, 0, 0.05);
 }
-
+.html-box:hover,
+.css-box:hover,
+.js-box:hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
 /* Next target Section  */
 .next-target {
-  padding-top: 111;
+  padding-top: 111px;
   width: 80%;
   margin: 0 auto;
 }
@@ -403,4 +410,105 @@
 }
 .next-right {
   padding-left: 20px;
+}
+
+/* Footer section  */
+.foot {
+  margin-top: 32px;
+  width: 80%;
+  height: 52vh;
+  margin: 0 auto;
+  border-radius: 16px;
+  background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2),
+    url(Email);
+  background: url(assets/handshake.jpg);
+  text-align: center;
+  gap: 32px;
+  padding: 64px 48px 64px 48px;
+  align-items: center;
+}
+.f-title {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-top: 64px;
+}
+.f-desc {
+  opacity: 0.7;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-top: 16px;
+}
+.int {
+  width: 548px;
+  height: 57px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 19px 20px 19px 20px;
+  margin: 0px 16px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+}
+.sub {
+  width: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 17px 20px 17px 20px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 16px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+}
+.foot {
+  margin-top: 64px;
+}
+.footer {
+  display: flex;
+  margin-top: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+  padding: 32px 150px 32px 150px;
+}
+.commit {
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  align-items: center;
+}
+.commit:hover {
+  color: rgba(13, 19, 33, 0.4);
+}
+.end img {
+  margin: 0px 10px;
+}
+.end img:hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 100%;
 }
